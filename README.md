@@ -8,6 +8,7 @@ Resumen breve de las clases
 * color (“Rojo” o “Negro” según el palo)
 * valor (“2”–“10”, “A”, “J”, “Q”, “K”)
 * Incluye toString() para imprimir en formato “Palo,Color,Valor”.
+  
 ***** Clase Deck: Gestiona el mazo completo de 52 cartas usando dos listas (List<Card>):
 * mazoCartas: cartas disponibles.
 * cartasUsadas: cartas ya extraídas.
@@ -17,6 +18,7 @@ Métodos:
 * head(): muestra/retira la primera carta y muestra cuántas quedan.
 * pick(): elige/retira una carta aleatoria y muestra cuántas quedan.
 * hand(): reparte 5 cartas (cada una en su línea) y muestra cuántas quedan.
+  
 ***** Clase ProgramaPrincipal (main):
 * Instancia Deck, lo mezcla y ejemplifica head(), pick(), hand().
 * Al final, imprime el número de cartas restantes.
